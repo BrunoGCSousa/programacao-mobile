@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/_ea49ccada3d4305111c6a5faca889a1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="592dp"
+        android:backgroundTint="#FF00FF"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&quot;Panteras&quot;"
+        android:textColor="#F40757"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#A61ABD"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email:"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="palavra-passe:"
+        android:textColor="#131212"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+</LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
