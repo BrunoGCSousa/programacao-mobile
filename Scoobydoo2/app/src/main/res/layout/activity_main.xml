@@ -21,7 +21,7 @@
             android:layout_width="450dp"
             android:layout_height="70dp"
             android:layout_gravity="center|center_horizontal|center_vertical"
-            android:text="Descubra os personagens de :"
+            android:text="Cadastre os personagens de:"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="30dp"
@@ -41,7 +41,7 @@
             android:layout_width="180dp"
             android:layout_height="64dp"
             android:layout_gravity="center|center_horizontal|center_vertical"
-            android:text="Iniciar o Jogo"
+            android:text="Cadastrar"
             tools:layout_editor_absoluteX="113dp"
             tools:layout_editor_absoluteY="632dp" />
 

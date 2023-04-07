@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_horizontal|center_vertical"
-            android:text="Descrição do personagem:"
+            android:text="Descrição da série:"
             android:textAlignment="center"
             android:textSize="30dp"
             android:textColor="#000"
@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_horizontal|center_vertical"
-            android:text="Esse personagem é muito cárismatico  e charmoso, adora fazer um fuzûe ele gosta de resolver misterios e liderar a equipe maluquinha dele"
+            android:text="Velma, Daphne, Fred e Salsicha são um grupo de amigos que resolvem crimes e mistérios com a ajuda de Scooby-Doo, um cão tão grande quanto atrapalhado."
             android:textAlignment="center"
             android:textColor="#FF00FF"
             android:textSize="30dp" />
@@ -40,42 +40,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_horizontal|center_vertical"
-            android:text="Qual é o personagem?"
+            android:text="Quais são os nomes dos personagens?"
             android:textAlignment="center"
             android:textSize="30dp"
             android:textColor="#000"/>
 
-        <RadioGroup
+
+        <TextView
+            android:id="@+id/textView5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="51dp"
+            android:text="Insira o nome aqui"
+            android:textAlignment="center"
+            android:textSize="30dp"/>
 
-            <RadioButton
-                android:id="@+id/radioButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Fred"
-                android:textSize="30dp" />
-
-            <RadioButton
-                android:id="@+id/radioButton2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Daphne"
-                android:textSize="30dp" />
-
-            <RadioButton
-                android:id="@+id/radioButton3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Salsicha"
-                android:textSize="30dp" />
-        </RadioGroup>
-
-        <ImageView
-            android:id="@+id/imageView"
+        <Button
+            android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/pngwing_com__2_" />
+            android:text="Cadastrar" />
+
 
 
     </LinearLayout>
