@@ -86,6 +86,16 @@ import android.database.sqlite.SQLiteOpenHelper;
             SQLiteDatabase db = this.getWritableDatabase();
 
             ContentValues valor = new ContentValues();
+
+            valor.put(COLUNA_NOME, pessoa.getNome());
+            valor.put(COLUNA_EMAIL, pessoa.getEmail());
+            valor.put(COLUNA_TELEFONE, pessoa.getTelefone());
+            valor.put(COLUNA_ENDERECO, pessoa.getEndereco());
+
+            db.update(TABELA_PESSOA, valor, COLUNA_CODIGO + " =?", new String[]{String.valueOf(pessoa.getCodigo())});
+
+            db.close();
+
         }
 
     }
